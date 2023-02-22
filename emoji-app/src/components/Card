@@ -1,0 +1,19 @@
+import React from 'react'
+
+const Card = () => {
+  return (
+    <>
+    Cards
+    </>
+  )
+}
+
+export default Card
+
+///example///
+
+// {<div className="product__lower">
+// <p className="product__price">Price: {price}</p>
+// <p className="product__category">Category: {category}</p>
+// <p className="product__description">Description: {description}</p>
+// </div>}
