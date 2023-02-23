@@ -1,9 +1,14 @@
-import React from 'react'
 
-const Cards = () => {
+import React from 'react';
+import Card from './Card';
+
+const Cards = ({data}) => {
+
   return (
     <>
-    Cards
+        {data && data.map((card) => (
+        <Card key={card.id} {...card} />
+      ))}
     </>
   )
 }
@@ -11,3 +16,5 @@ const Cards = () => {
 export default Cards
 
 ///here we itarate the data//
+
+
